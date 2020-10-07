@@ -36,6 +36,11 @@ const config = {
   };
 
 
+  export const addCollectionAndDocuments = (collectionKey,objectsToAdd) => {
+    const collectionRef = firestore.collection(collectionKey);
+    console.log(collectionRef);
+  }
+
  
   
   
